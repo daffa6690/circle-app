@@ -53,6 +53,7 @@ export function MyProfile() {
           display={'flex'}
           gap={'4px'}
           color={'secondary'}
+          position={'sticky'}
         >
           <Image src={LeftArrow} width={'27px'} />
         </Button>
@@ -67,7 +68,7 @@ export function MyProfile() {
           height={'140px'}
           borderRadius={'18px'}
         />
-        <Box display={'flex'} justifyContent={'space-between'}>
+        <Box display={'flex'} justifyContent={'space-between'}> 
           <Avatar
             marginLeft={'24px'}
             border={'4px solid #1D1D1D'}
